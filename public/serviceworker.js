@@ -3,13 +3,13 @@
 console.log("This is the serviceworker.js file.");
 
 const FILES_TO_CACHE = [
-    "/db.js",
-    "/index.html",
-    "/index.js",
-    "/index.css",
-    "/manifest.webmanifest",
-    "/icons/icon-192x192.png",
-    "/icons/icon-512x512.png"
+    "public/db.js",
+    "public/index.html",
+    "public/index.js",
+    "public/index.css",
+    "public/manifest.webmanifest",
+    "public/icons/icon-192x192.png",
+    "public/icons/icon-512x512.png"
 ];
 
 const STATIC_CACHE = "static-cache";
