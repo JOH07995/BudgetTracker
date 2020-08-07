@@ -49,11 +49,11 @@
   <script src="index.js"></script>
   <script src="/db.js"></script>
   <script>
-      if ('serviceWorker' in navigator) {
-          window.addEventListener('load', () =>
+      if ("serviceWorker" in navigator) {
+          window.addEventListener("load", () =>
               navigator.serviceWorker
-                  .register('/serviceworker.js')
-                  .then(reg => console.log('Found the service worker file!', reg))
+                  .register("serviceworker.js")
+                  .then(reg => console.log("Found the service worker file!", reg))
           );
       }
   </script>
