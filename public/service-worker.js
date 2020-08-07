@@ -10,8 +10,8 @@ const FILES_TO_CACHE = [
     "public/icons/icon-512x512.png"
 ];
 
-const STATIC_CACHE = "static-cache";
-const RUNTIME_CACHE = "runtime-cache";
+const STATIC_CACHE = "static-cache-v1";
+const RUNTIME_CACHE = "runtime-cache-v1";
 
 self.addEventListener("install", function(evt) {
     evt.waitUntil(
