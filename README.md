@@ -21,17 +21,20 @@
 
 
 #### Appication Overview:
-__Online App Screenshot__
+__Online App__
 ![](public/image/budget_tracker.PNG)
-
-__Offline App Screenshot__
-![](public/image/budget_tracker_offline.PNG)
 
 - Input a Transaction with a **Name** and **Cost**
 - Click either **Add Funds** or **Subtract Funds** for the Transaction type
 - The Transaction is logged to a table, so you can see a list of transactions
 - The Graph updates based on your transactions, so you can see changes over time
 - At the top of the page, you can see the total of All Transactions
+
+__Offline App__
+![](public/image/budget_tracker_offline.PNG)
+- You can use the application offline, by _Right Clicking_ the webpage, selecting _Inspect_, then _Application_ and _Service Worker_ tab.
+- In the _Service Worker_ tab, you can then check the **Offline** box
+- Once the **Offline** box is unchecked, any transaction updates made will be incorporated into the Web Application! 
 
 ## Deployment
 
