@@ -1,4 +1,3 @@
-
 console.log("This is the serviceworker.js file.");
 
 const FILES_TO_CACHE = [
